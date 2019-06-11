@@ -167,40 +167,111 @@ header {
 
 .boxes {
 display: flex;
-flex-direction: row;
+justify-content: space-around;
 flex-wrap: wrap;
-margin-top: 15px;
+align-content: flex-end;
+margin: 10px;
 
-justify-content: space-between;
 }
   .box1 { 
-     background-color:teal;} 
+     background-color:teal;
+     padding: 40px;
+     height: 100px;
+     
+    } 
  .box2 { 
      background-color:gold;
+     padding: 40px;
+     height: 100px;
+    
     }
  .box3 {
-     background-color:cadetblue
-    }
- .box4 {background-color:coral}
- .box5 {background-color:crimson}
- .box6 {background-color:forestgreen}
+     background-color:cadetblue;
+     padding: 40px;
+     height: 100px;
+ }    
+ .box4 {background-color:coral;
+     padding: 40px;
+     height: 100px;
+         
+}
+ .box5 {background-color:crimson;
+     padding: 40px;
+     height: 100px;
+             
+}
+ .box6 {
+     background-color:forestgreen;
+     padding: 40px;
+     height: 100px;
+         
+}
  .box7 {
-     background-color:darkorchid
-    }
+     background-color:darkorchid;
+     padding: 40px;
+     height: 100px;
+ }
  .box8 {
-    background-color: hotpink
+    background-color: hotpink;
+     padding: 40px;
+     height: 100px;
+     
     }
  .box9 {
-    background-color:indigo
+    background-color:indigo;
+     padding: 40px;
+     height: 100px;
+    
  }
  .box10{
     background-color: dodgerblue;
+     padding: 40px;
+     height: 100px;
+     
  }
 
  /* about.html code starts here */
-
- .about-container{
+.about{
+    margin-bottom: 20px;
+    border-bottom: dotted black 1px;
+}
+ .container-about-page{
  display: flex;
  justify-content: center;
- 
+ flex-wrap: wrap;
+ flex-direction: column;
+ width: 800px;
+ margin: 0 auto;
  }
+
+
+.container-about-page .section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.section1 .section1-left{
+    padding: 15px;
+    border-bottom: dotted black 1px;
+
+}
+.section1 .section1-right{
+    padding: 15px;
+    border-bottom: dotted black 1px;
+}
+
+
+
+
+ .section2{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-about-page .section3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
